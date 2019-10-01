@@ -91,3 +91,5 @@ RUN chown -Rf www-data.www-data /storage/cache && chmod -Rf 0755 /storage/cache
 EXPOSE 80
 
 CMD ["/bin/bash", "/entrypoint.sh"]
+
+
