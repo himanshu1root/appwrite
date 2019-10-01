@@ -82,6 +82,8 @@ COPY ./public /usr/share/nginx/html/public
 COPY ./src /usr/share/nginx/html/src
 COPY ./vendor /usr/share/nginx/html/vendor
 
+# add dockerfile-tricorder
+
 WORKDIR /storage/uploads
 RUN chown -Rf www-data.www-data /storage/uploads && chmod -Rf 0755 /storage/uploads
 
